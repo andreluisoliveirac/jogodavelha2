@@ -31,7 +31,7 @@ frame_baixo = Frame(janela, width=240, height=300, bg=fundo, relief="flat")
 frame_baixo.grid(row=1, column=0, sticky=NW)
 
 
-# Configurando o frame cima ---------------------------------------
+# Configurando o frame  ---------------------------------------
 app_x = Label(frame_cima, text='X', height=1, relief='flat', anchor='center', font=('Ivy 40 bold'), bg=co1, fg=co7 )
 app_x.place(x=25, y=10)
 app_x = Label(frame_cima, text='Jogador 1', height=1, relief='flat', anchor='center', font=('Ivy 7 bold'), bg=co1, fg=co0 )
@@ -48,12 +48,6 @@ app_o = Label(frame_cima, text='Jogador 2', height=1, relief='flat', anchor='cen
 app_o.place(x=165, y=70)
 app_o_pontos = Label(frame_cima, text='0', height=1, relief='flat', anchor='center', font=('Ivy 30 bold'), bg=co1, fg=co0 )
 app_o_pontos.place(x=130, y=20)
-
-# Configurando o frame baixo ---------------------------------------
-
-
-
-
 
 # Criando logica do app ---------------------------------------
 
